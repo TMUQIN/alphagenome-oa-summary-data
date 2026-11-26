@@ -48,6 +48,11 @@ Candidates without accepted source-reference relations are not verified biologic
 ## Access and citation
 
 - GitHub: https://github.com/TMUQIN/alphagenome-oa-summary-data
-- Zenodo: https://doi.org/10.5281/zenodo.24556013 (reserved DOI; cite the record once registered and published).
+- Zenodo (archived dataset, v1.0.0): https://doi.org/10.5281/zenodo.24556013
+- Concept DOI (all versions): https://doi.org/10.5281/zenodo.24556012
+
+Suggested citation: Qin, D. (2026). *AlphaGenome-OA Summary Data Companion: Benchmarking cis-eQTL Gene Retrieval in Osteoarthritis Tissues* (v1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.24556013
+
+The Zenodo deposit is a fixed publication snapshot. This repository updates the access and citation documentation after publication; the scientific data files and supplementary PDFs are unchanged.
 
 The separate general-purpose Gene Retrieval Validation Toolkit is available at https://doi.org/10.5281/zenodo.24457343. It provides reusable validation utilities, not the full analysis pipeline for this study; its licences do not extend to this data companion.
