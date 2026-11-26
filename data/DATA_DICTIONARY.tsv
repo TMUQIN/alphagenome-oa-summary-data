@@ -1,0 +1,68 @@
+Sheet	Field	Interpretation / unit	Data type / note
+Table_S1_MSK_panel	panel_id	Prespecified musculoskeletal panel identifier	Original column / source value preserved
+Table_S1_MSK_panel	biosample_name	biosample name	Original column / source value preserved
+Table_S1_MSK_panel	biosample_type	biosample type	Original column / source value preserved
+Table_S1_MSK_panel	gtex_tissue	Recorded tissue mapping; intentionally blank if not recovered	Original column / source value preserved
+Table_S1_MSK_panel	biosample_life_stage	biosample life stage	Original column / source value preserved
+Table_S1_MSK_panel	rna_seq_row_count	Raw recorded RNA_SEQ rows per biosample name	Original column / source value preserved
+Table_S1_MSK_panel	musculoskeletal_relevant	musculoskeletal relevant	Original column / source value preserved
+Table_S1_MSK_panel	included_in_primary_panel	included in primary panel	Original column / source value preserved
+Table_S1_MSK_panel	ambiguous_excluded_from_primary	ambiguous excluded from primary	Original column / source value preserved
+Table_S2_Eligibility	Quantity	Quantity	Original column / source value preserved
+Table_S2_Eligibility	Method	Method	Original column / source value preserved
+Table_S2_Eligibility	Count	Count	Original column / source value preserved
+Table_S2_Eligibility	Interpretation	Interpretation	Original column / source value preserved
+Table_S3_MRR_crosswalk	Estimate	Estimate	Original column / source value preserved
+Table_S3_MRR_crosswalk	Queries	Queries	Original column / source value preserved
+Table_S3_MRR_crosswalk	Locus clusters	Locus clusters	Original column / source value preserved
+Table_S3_MRR_crosswalk	MRR / ΔMRR	MRR / ΔMRR	Original column / source value preserved
+Table_S3_MRR_crosswalk	CI low 95%	CI low 95%	Original column / source value preserved
+Table_S3_MRR_crosswalk	CI high 95%	CI high 95%	Original column / source value preserved
+Table_S3_MRR_crosswalk	Bootstrap replicates	Bootstrap replicates	Original column / source value preserved
+Table_S3_MRR_crosswalk	Seed	Seed	Original column / source value preserved
+Table_S3_MRR_crosswalk	Scope	Scope	Original column / source value preserved
+Figure_S1_Tissue_metrics	tissue	tissue	Original column / source value preserved
+Figure_S1_Tissue_metrics	query_count	query count	Original column / source value preserved
+Figure_S1_Tissue_metrics	metric	metric	Original column / source value preserved
+Figure_S1_Tissue_metrics	distance_D0	distance D0	Original column / source value preserved
+Figure_S1_Tissue_metrics	rna_A0	rna A0	Original column / source value preserved
+Figure_S1_Tissue_metrics	delta_RNA_minus_Distance	delta RNA minus Distance	Original column / source value preserved
+Figure_S1_Tissue_metrics	uncertainty	uncertainty	Original column / source value preserved
+Figure_S1_Tissue_metrics	source	source	Original column / source value preserved
+Table_S4_Figure2D	Stratification	Tissue or candidate-set-size subgroup	text
+Table_S4_Figure2D	Stratum	Subgroup label	text
+Table_S4_Figure2D	Queries_n	Number of matched queries in the subgroup	integer
+Table_S4_Figure2D	Distance_MRR_D0	Mean reciprocal rank for TSS proximity	float
+Table_S4_Figure2D	RNA_SEQ_MRR_A0	Mean reciprocal rank for the frozen RNA_SEQ score	float
+Table_S4_Figure2D	Delta_MRR_Distance_minus_RNA	D0 MRR minus A0 MRR; positive favours proximity	float
+Table_S4_Figure2D	Uncertainty	No frozen subgroup confidence interval or inferential test	text
+Table_S4_Figure2D	Source	Source crosswalk for displayed values	text
+Table_S5_Window	Window_bp	Inclusive variant-to-TSS candidate radius in base pairs	integer
+Table_S5_Window	Candidate_memberships_full_reference_universe	Query × candidate rows across all 23,196 reference queries	integer
+Table_S5_Window	Candidate_memberships_matched_common_support	Query × candidate rows within D0∩A0 eligible support	integer
+Table_S5_Window	Queries_with_any_retained_positive	Queries with at least one source-positive relation in the window	integer
+Table_S5_Window	Queries_with_no_retained_positive	Queries with no source-positive relation in the window	integer
+Table_S5_Window	Queries_with_partial_positive_retention_excluded	Queries where some, but not all, source-positive relations remained in the window; excluded by the complete-reference-set rule	integer
+Table_S5_Window	Matched_queries_D0_intersection_A0	Exact matched query support	integer
+Table_S5_Window	Coordinate_clusters_matched_support	Unique GRCh38 chromosome–position keys; not LD blocks	integer
+Table_S5_Window	Accepted_relations_matched_support	Source-positive relations retained on matched support	integer
+Table_S5_Window	Distance_MRR	First-positive MRR for TSS proximity	float
+Table_S5_Window	RNA_MRR	First-positive MRR for frozen RNA_SEQ score	float
+Table_S5_Window	RNA_minus_Distance	RNA MRR minus distance MRR	float
+Table_S5_Window	Distance_Recall1	Distance Recall@1	float
+Table_S5_Window	RNA_Recall1	RNA Recall@1	float
+Table_S5_Window	Distance_Recall10	Distance Recall@10	float
+Table_S5_Window	RNA_Recall10	RNA Recall@10	float
+Table_S5_Window	Status_and_support_rule	Post-primary; no new CI; complete source-positive set must be retained	text
+Table_S6_Fixed_query	Window_bp	Inclusive variant-to-TSS candidate radius in base pairs	integer
+Table_S6_Fixed_query	Fixed_queries	Same intersection of eligible queries at all windows	integer
+Table_S6_Fixed_query	Coordinate_clusters	Unique GRCh38 chromosome–position keys; not LD blocks	integer
+Table_S6_Fixed_query	Accepted_relations	Same retained source-positive relations across windows	integer
+Table_S6_Fixed_query	Median_candidates	Median candidate set size	integer
+Table_S6_Fixed_query	Mean_candidates	Mean candidate set size	float
+Table_S6_Fixed_query	Distance_MRR	Distance first-positive MRR	float
+Table_S6_Fixed_query	RNA_MRR	RNA first-positive MRR	float
+Table_S6_Fixed_query	RNA_minus_Distance	RNA MRR minus distance MRR	float
+Table_S6_Fixed_query	Distance_Recall10	Distance Recall@10	float
+Table_S6_Fixed_query	RNA_Recall10	RNA Recall@10	float
+Table_S6_Fixed_query	Status	Post-primary fixed-query diagnostic; no new CI	text

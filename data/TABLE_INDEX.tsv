@@ -1,0 +1,8 @@
+Label	Excel sheet	Full descriptive title	Purpose / important limitation	Main-text first mention
+Supplementary Table S1	Table_S1_MSK_panel	Frozen MSK_PANEL_V1 biosample manifest	19 predefined biosamples; heterogeneous contexts, not a one-to-one OA tissue match	Results: matched gene-retrieval task
+Supplementary Table S2	Table_S2_Eligibility	Eligible queries, RNA score abstentions and common support	Abstentions are a subset of RNA metric-ineligible queries	Results: matched gene-retrieval task
+Supplementary Table S3	Table_S3_MRR_crosswalk	MRR estimates and primary CI source crosswalk	Primary A0-D0 MRR and secondary deterministic F0-D0 interval crosswalk	Results: primary MRR comparison
+Supplementary Table S4	Table_S4_Figure2D	Figure 2D source data by tissue and candidate-set-size strata	Descriptive subgroup estimates; no frozen subgroup CIs or inferential tests	Results: context-stratified MRR
+Supplementary Table S5	Table_S5_Window	Nested-window sensitivity at three candidate radii	Full-universe and matched-support candidate memberships are separately reported; partial-positive retention rule is explicit	Results: candidate-window sensitivity
+Supplementary Table S6	Table_S6_Fixed_query	Fixed-query nested-window analysis on 14,937 queries	Retains 15,200 accepted relations; distance invariance is expected by construction	Results: fixed-query window diagnostic
+Figure S1 source data	Figure_S1_Tissue_metrics	Four-tissue retrieval metrics	20 tissue-metric contrasts; no subgroup CIs	Results: tissue-stratified retrieval
