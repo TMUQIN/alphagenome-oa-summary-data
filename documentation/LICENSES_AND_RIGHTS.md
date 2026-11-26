@@ -20,4 +20,4 @@ The README, data dictionary, output-modification note and reproducibility note a
 
 ## Separate general-purpose toolkit
 
-The Gene Retrieval Validation Toolkit v0.1.0 is a separate product with its own scoped MIT / CC BY 4.0 licensing and Zenodo DOI: https://doi.org/10.5281/zenodo.24457343. Those licences do not extend to the AlphaGenome-derived contents of this archive.
+The Gene Retrieval Validation Toolkit is a separate product with its own scoped MIT / CC BY 4.0 licensing and Zenodo DOI: https://doi.org/10.5281/zenodo.24457343. Those licences do not extend to the AlphaGenome-derived contents of this archive.
