@@ -1,6 +1,6 @@
 # Build report - AlphaGenome-OA Summary Data Companion v1.0.0
 
-Status: LOCAL CANDIDATE ONLY; NOT PUBLISHED.
+Status: Public GitHub repository snapshot; no versioned GitHub Release or Zenodo deposit has been created yet.
 
 Source: `E_AlphaGenome_OA_GPB_V3_9_5_LOW_RISK_AUTHOR_REVIEW.zip`, submission workbook and supplementary PDFs; user-supplied AlphaGenome Output Terms and Services Additional Terms PDFs.
 
@@ -24,6 +24,6 @@ Validation:
 Limitations / outstanding author checks:
 - No paper-specific D0/A0/F0 analysis scripts were found in the reviewed V3.9.5 submission package; none were invented or included.
 - The complete historical AlphaGenome terms version applicable to each output-generation date was not established.
-- Institutional eligibility/authorization, non-commercial-use compliance, source-data rights and final author approval remain to be confirmed before public deposit.
+- The depositor reports individual non-commercial use of AlphaGenome Services. Historical terms applicability to each output-generation date has not been independently established. Source-data rights and final author approval remain author-side responsibilities.
 - This package is a summary-data companion, not a complete reproducibility archive.
-- No GitHub, Zenodo, release, DOI or repository-visibility action was performed.
+- The repository was created as public and the 17-file candidate was pushed to its main branch. No GitHub Release, Zenodo deposit or versioned DOI has yet been created.

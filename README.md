@@ -1,6 +1,6 @@
 # AlphaGenome-OA Summary Data Companion (V3.9.5)
 
-**Status: local release candidate; not yet published.**
+**Status: Public GitHub summary-data companion. No versioned Zenodo record or DOI has been created yet.**
 
 This archive accompanies the GPB AlphaGenome-OA manuscript author-review version V3.9.5. It is a **summary-data companion**, not a complete end-to-end reproduction package.
 
@@ -36,7 +36,7 @@ The score modifications used in the manuscript are documented in `documentation/
 
 The supplied Output Terms PDF states that the version effective on the date a relevant Output was generated applies. The historical version applicable to every archived output-generation date has **not** been independently established here. The supplied copies are included for transparency and must not be represented as proof of the historical governing version.
 
-This archive is intended only for use consistent with the applicable AlphaGenome terms, including non-commercial-use, organizational eligibility, conspicuous-notice and modification-disclosure requirements. It is not for clinical use. The depositor must confirm that the original API use and any organizational authorization satisfy the applicable terms before public release.
+This archive is intended only for use consistent with the applicable AlphaGenome terms, including non-commercial-use, eligibility, conspicuous-notice and modification-disclosure requirements. It is not for clinical use. The depositor reports that AlphaGenome Services were used in an individual capacity for non-commercial research. This is depositor-provided information, not an independent legal determination. The historical terms version applicable to each output-generation date has not been independently established.
 
 ## What is not included
 
@@ -60,4 +60,4 @@ Candidates without an accepted source-reference relation are not verified biolog
 
 ## Citation
 
-Cite the associated manuscript and, after publication, cite the versioned repository/Zenodo record. The general-purpose toolkit should be cited separately using its own DOI above. No paper-specific DOI or public repository URL has been assigned to this local candidate.
+The public GitHub repository for this summary-data companion is https://github.com/TMUQIN/alphagenome-oa-summary-data. A versioned Zenodo record and DOI have not yet been created. Once available, cite the version-specific Zenodo record together with the associated manuscript. Cite the general-purpose toolkit separately using its own DOI above.

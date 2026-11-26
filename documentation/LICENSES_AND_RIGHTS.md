@@ -16,7 +16,7 @@ The underlying OA cis-eQTL source relations are not redistributed in this archiv
 
 ## Original companion documentation
 
-The README, data dictionary, output-modification note and reproducibility note are prepared for this companion. No separate open licence is assigned to these documents in this candidate release. A project owner should approve a licence for them before public deposit.
+The README, data dictionary, output-modification note and reproducibility note are prepared for this companion. These documents are publicly accessible in this GitHub repository, but no separate open reuse licence is assigned to them by this archive. Public access does not itself grant additional reuse rights. Any explicit open licence should be added only after author and rights-holder approval.
 
 ## Separate general-purpose toolkit
 
